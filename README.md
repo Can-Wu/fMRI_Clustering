@@ -36,7 +36,7 @@ Ward clustering with cluster number = 5000，which is about 10x compression from
 
 ![alt tag](https://cloud.githubusercontent.com/assets/17630430/14062410/bcfc636a-f36b-11e5-9251-9378e6817386.png "Ward Clusters 5000")
 
-From the above images, we can easily see appreciate the impact of cluster number on clustering. Compared with the original fMRI image (48320 voxels), the clustered image with cluster_number = 500 (i.e. ~100x compression) and cluster_number = 5000 (10x compression) retain most of their features. However, the clustered image with cluster_number = 50 lost substantial information. 
+From the above images, we can appreciate the impact of cluster number on clustering. Compared with the original fMRI image (48320 voxels), the images after clustering with cluster_number = 500 (i.e. ~100x compression) and cluster_number = 5000 (10x compression) retain most of their features. However, the image with cluster_number = 50 lost substantial spatially-related information. 
 
 3. References
 -----------
